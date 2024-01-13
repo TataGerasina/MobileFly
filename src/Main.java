@@ -5,8 +5,8 @@ public class Main {
 
         int amount = balance + refill; // сумма = баланс счёта + пополнение
         int bonus;
-        int i = 1000;
-        if (refill > i) {
+        int rubles = 1000;
+        if (refill > rubles) {
             bonus = refill / 100;
             System.out.println("Количество бонусных рублей на счёту: " + bonus);
         } else {
